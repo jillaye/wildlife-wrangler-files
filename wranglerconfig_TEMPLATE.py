@@ -9,13 +9,16 @@ gbif_username = ""
 gbif_email = ""
 gbif_password = ""
 
-# Excel spreadsheet holding names of species to run 
-species_filename = 'Species_GBIF_R1.csv'
 
 # Paths
-# Path to the working directory; be sure to create folders named "Inputs" and "Outputs" here.
+# Path to the working directory. Note: must use double backslashes end in "\\""
 workDir = ""
-# Path to your copy of the wildlife-wrangler repo.  
+# Path to your copy of the wildlife-wrangler repo. Note: must use double backslashes end in "\\" 
 codeDir = ""  
-# Path to your copy of the wildlife-wrangler.sqlite database. 
-paramdb = "\\wildlife-wrangler.sqlite"   
+
+# Files - Note these must exist in your codeDir
+# Excel spreadsheet holding names of species to run 
+species_filename = ''
+# JSON file that speciies how you want records filtered and cleaned
+filters_filename = ''
+ 
