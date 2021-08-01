@@ -1,9 +1,9 @@
 # wildlife-wrangler-files
 Files that interact with Nathan Tarr's wildlife-wrangler framework for collecting and filtering occurrence data
 
-**add_species_to_db.py** - Python script which will add GBIF IDs to to each species in a CSV file and add the species and associated GBIF ID to the taxa_concepts table of the parameters database (wildlife-wrangler.sqlite)
-**call_ww_retrieve.py** - Python script which will create a species database for each species in a CSV file
-**wranglerconfig_TEMPLATE.py** - A copy of the wranglerconfig.py template from wildlife wrangler. Must be filled out before running call_ww_retrieve.py. Note: I added "species_filename" which is the name of the Excel spreadsheet holding names of species to run. Fill out the required items and remove "_TEMPLATE" from the filename.
+**add_species_to_db.py** - Python script which will add GBIF IDs to to each species in a CSV file and add the species and associated GBIF ID to the taxa_concepts table of the parameters database (wildlife-wrangler.sqlite)\
+**call_ww_retrieve.py** - Python script which will create a species database for each species in a CSV file\
+**wranglerconfig_TEMPLATE.py** - A copy of the wranglerconfig.py template from wildlife wrangler. Must be filled out before running call_ww_retrieve.py. Note: I added "species_filename" which is the name of the Excel spreadsheet holding names of species to run. Fill out the required items and remove "_TEMPLATE" from the filename.\
 **wildlife-wrangler_TEMPLATE.sqlite** - a copy of the wildlife-wrangler.sqlite database. I added GRINFilters and GRINRequests to the gbif_filters and gbif_requests tables, respectively. Remove "_TEMPLATE" from the DB filename.
 
 ## Workflow
